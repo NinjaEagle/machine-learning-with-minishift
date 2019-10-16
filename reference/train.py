@@ -66,3 +66,5 @@ def start():
     print('Test accuracy:', score[1])
 
     model.save('mnist.h5')
+
+    

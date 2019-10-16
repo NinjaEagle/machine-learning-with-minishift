@@ -14,7 +14,7 @@ def hello():
 def classifyCharacter():
     global stored_model
 
-    body = request.get_json()
+    body = request.get_json() 
 
     reshapedData = np.array(body['data'])
     reshapedData = reshapedData.reshape(1,28,28,1)
